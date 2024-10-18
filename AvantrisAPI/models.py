@@ -6,7 +6,6 @@ class Item(models.Model):
     quantity = models.IntegerField()
     price = models.FloatField()
 
-
 class User(models.Model):
     user_id = models.CharField(max_length=255)
     email = models.EmailField(unique=True)
