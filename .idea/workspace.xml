@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AvantrisAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AvantrisAPI/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Created views file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,11 +80,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729223779380</updated>
-      <workItem from="1729223780450" duration="410000" />
+      <workItem from="1729223780450" duration="1039000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1729224228705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224228705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created models for user and item">
+      <option name="closed" value="true" />
+      <created>1729224245987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224245987</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created  seralizers for the two models">
+      <option name="closed" value="true" />
+      <created>1729224645742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224645742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed price to a float">
+      <option name="closed" value="true" />
+      <created>1729224659894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224659894</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created views file">
+      <option name="closed" value="true" />
+      <created>1729224669059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224669059</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Created models for user and item" />
+    <MESSAGE value="Created  seralizers for the two models" />
+    <MESSAGE value="Changed price to a float" />
+    <MESSAGE value="Created views file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created views file" />
   </component>
 </project>
