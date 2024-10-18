@@ -2,7 +2,7 @@
 from django.utils.dateparse import parse_datetime
 from rest_framework import serializers
 
-from AvantrisAPI.models import User
+from AvantrisAPI.models import User, Item
 import re
 
 # Serializer, to ensure constraints are maintained
@@ -11,6 +11,10 @@ class ItemSerializer(serializers.Serializer):
     item_id = serializers.CharField(required=True)
     quantity = serializers.IntegerField(min_value=0)
     price = serializers.FloatField(min_value=0)
+
+    class Meta:
+        model = Item
+        fields = ['item_id', 'quantity', 'price']
 
     def validate_item_id(self, value):
         if not value:
@@ -32,7 +36,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = '__all__'
+        fields = ['user_id', 'email', 'timestamp', 'items']
 
     def validate_user_id(self, value):
         if not value:

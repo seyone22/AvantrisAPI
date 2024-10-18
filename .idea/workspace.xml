@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Added validations, need to link up">
+    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Added JWT auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvantrisAPI/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AvantrisAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AvantrisAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvantrisAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.AvantrisAPI.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -50,6 +52,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="AvantrisAPI.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -84,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729223779380</updated>
-      <workItem from="1729223780450" duration="2184000" />
+      <workItem from="1729223780450" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -166,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729225737360</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added JWT auth">
+      <option name="closed" value="true" />
+      <created>1729225999431</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225999432</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +194,7 @@
     <MESSAGE value="Added files not captured by initial commit" />
     <MESSAGE value="Added comments" />
     <MESSAGE value="Added validations, need to link up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added validations, need to link up" />
+    <MESSAGE value="Added JWT auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JWT auth" />
   </component>
 </project>
