@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Created views file" />
+    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Config changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729223779380</updated>
-      <workItem from="1729223780450" duration="1039000" />
+      <workItem from="1729223780450" duration="1105000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -122,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729224669059</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Removed one line break">
+      <option name="closed" value="true" />
+      <created>1729224879602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224879602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Config changes">
+      <option name="closed" value="true" />
+      <created>1729224892511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224892511</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +152,8 @@
     <MESSAGE value="Created  seralizers for the two models" />
     <MESSAGE value="Changed price to a float" />
     <MESSAGE value="Created views file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created views file" />
+    <MESSAGE value="Removed one line break" />
+    <MESSAGE value="Config changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config changes" />
   </component>
 </project>
