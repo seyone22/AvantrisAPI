@@ -4,7 +4,7 @@ from django.db import models
 class Item(models.Model):
     item_id = models.CharField(max_length=255)
     quantity = models.IntegerField()
-    price = models.IntegerField()
+    price = models.FloatField()
 
 
 class User(models.Model):
