@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Config changes">
+    <list default="true" id="5631a22a-7ac3-446b-ab04-e216283a00d0" name="Changes" comment="Added validations, need to link up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvantrisAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvantrisAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AvantrisAPI/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729223779380</updated>
-      <workItem from="1729223780450" duration="1105000" />
+      <workItem from="1729223780450" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -140,7 +142,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729224892511</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added files not captured by initial commit">
+      <option name="closed" value="true" />
+      <created>1729224950602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729224950602</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added comments">
+      <option name="closed" value="true" />
+      <created>1729225724304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225724304</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added validations, need to link up">
+      <option name="closed" value="true" />
+      <created>1729225737360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225737360</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +180,9 @@
     <MESSAGE value="Created views file" />
     <MESSAGE value="Removed one line break" />
     <MESSAGE value="Config changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config changes" />
+    <MESSAGE value="Added files not captured by initial commit" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Added validations, need to link up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added validations, need to link up" />
   </component>
 </project>
